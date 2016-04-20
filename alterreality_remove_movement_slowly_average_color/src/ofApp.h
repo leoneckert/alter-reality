@@ -70,15 +70,19 @@ public:
     void draw();
     
     int offset = 0;
-    bool showMovement = false                      ;
+    bool drawing = false;
+    bool showMovement = false;
+    bool showBackground = true;
     void keyPressed(int key);
     void keyReleased(int key);
+    int threshold = 10;
     ofImage background;
     ofImage movement;
-    ofImage streamImg;
+    string stream_name;
+//    ofImage streamImg;
 //    ofImage alteredReality;
-//    std::vector<pair<float, long>> avColors;
-    std::vector<map<int, long>> colCountPerPixel;
+    std::vector<pair<float, long>> avColors;
+//    std::vector<map<int, long>> colCountPerPixel;
     bool first = true;
     
 //    std::vector<std::shared_ptr<Video::IPVideoGrabber>> grabbers;
