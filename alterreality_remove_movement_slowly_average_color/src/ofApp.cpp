@@ -35,21 +35,29 @@ void ofApp::loadCameras()
     
 //    IPCameraDef def("http://107.1.228.34/axis-cgi/mjpg/video.cgi");
 //    IPCameraDef def("http://155.33.204.133/mjpg/video.mjpg");  //BOSTON
+//        stream_name = "Boston";
 //    IPCameraDef def("http://91.201.117.136/mjpg/video.mjpg"); //RUSSIA
 //    IPCameraDef def("http://68.181.140.38/mjpg/video.mjpg"); //LOS ANGELES
     
 //    IPCameraDef def("http://73.43.57.142/mjpg/video.mjpg"); //fencers  /
 //    stream_name = "Nellya Fencers";
-    
+//    
 //    IPCameraDef def("http://96.92.37.226:84/mjpg/video.mjpg"); // ICE HOCKEY
 //    stream_name = "Ice Hockey";
+ 
+//    IPCameraDef def("http://69.63.114.69/mjpg/video.mjpg");  //RUNNING TRACK
+//    stream_name = "Council Bluffs, Iowa";
     
+    
+// // ***
 //    IPCameraDef def("http://192.133.84.223/mjpg/video.mjpg"); //TENNIS /
+//    stream_name = "Cedar Rapids, Iowa";
+    
 //    IPCameraDef def("http://93.91.44.169:81/mjpg/video.mjpg"); //LONODN
     
 //    IPCameraDef def("http://212.13.111.186/mjpg/video.mjpg"); //colored houses moscov, russio
 //    stream_name = "Moscow, Russia";
-    
+//    
     
 //    IPCameraDef def("http://83.234.97.117/mjpg/video.mjpg"); //fancy building
 //    stream_name = "Moscow, Russia";
@@ -64,8 +72,8 @@ void ofApp::loadCameras()
 //    IPCameraDef def("http://193.213.88.123/mjpg/video.mjpg");
 //    stream_name = "Oslo, Norway";
     
-    IPCameraDef def("http://188.75.140.14/mjpg/video.mjpg");
-    stream_name = "Kolin, Czech Republic";
+//    IPCameraDef def("http://188.75.140.14/mjpg/video.mjpg");
+//    stream_name = "Kolin, Czech Republic";
     
 //    IPCameraDef def("http://149.156.124.49/mjpg/video.mjpg");
 //    stream_name = "Krakow, Poland";
@@ -74,15 +82,23 @@ void ofApp::loadCameras()
  
 //    IPCameraDef def("http://174.78.247.218/mjpg/video.mjpg"); //SURFER
 //    stream_name = "San Diego, California";
+  
     
+    
+  // ***
 //    IPCameraDef def("http://134.114.122.215/mjpg/video.mjpg"); //Flagstaff, Arizona
 //    stream_name = "Flagstaff, Arizona";
-//
+////
+////    
+    
+    
+ // ***
 //    IPCameraDef def("http://166.248.11.128/mjpg/video.mjpg"); // bolton
 //    stream_name = "Bolton, Connecticut";
 
-//    IPCameraDef def("http://131.193.91.50/mjpg/video.mjpg"); //CHICAGO
-//    stream_name = "Chicago, Illinois";
+    
+    IPCameraDef def("http://131.193.91.50/mjpg/video.mjpg"); //CHICAGO
+    stream_name = "Chicago, Illinois";
 
 //    IPCameraDef def("http://166.140.227.198/mjpg/video.mjpg"); //newjersey, newark
 //    stream_name = "Newark,  New Jersey";
@@ -245,7 +261,7 @@ void ofApp::draw()
     
     float orig_width = background.getWidth();
     float orig_height = background.getHeight();
-    float factor = (w/1.4) / orig_width;
+    float factor = (w/1.1) / orig_width;
     
 //    streamImg.draw(0,0, orig_width * factor, orig_height * factor);
 

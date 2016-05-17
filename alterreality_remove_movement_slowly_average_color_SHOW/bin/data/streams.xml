@@ -1,0 +1,7 @@
+<streams>
+    
+    <stream url="http://134.114.122.215/mjpg/video.mjpg" name="Arizona"/>
+    <stream url="http://96.92.37.226:84/mjpg/video.mjpg" name="test1"/>
+    <stream url="http://166.140.227.198/mjpg/video.mjpg" name="test2"/>
+
+</streams>
